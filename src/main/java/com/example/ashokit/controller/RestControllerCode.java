@@ -19,6 +19,7 @@ public class RestControllerCode {
 		String queryString = request.getQueryString();
 		String[] specialCharacters = queryString.split("^0-9{},[],()");
 		System.out.println("My special charactiers are the");
+		System.out.println("Welcome to check this");
 		for (String string : specialCharacters) {
 			System.out.println(string);
 		}	
